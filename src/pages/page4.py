@@ -1,12 +1,12 @@
 import streamlit as st
+id = "contact_sheet"
 
-st.title("Contact Us!")
-st.write("Contact Information.")
+st.title("Contact the Tech Club!")
 
 #contact bar
 with st.container():
     st.write("---")
-    st.header("Contact the Tech Club!")
+    st.header("Contact us below!")
     st.write("##")
 
     #From https://formsubmit.co/ ...
@@ -22,5 +22,5 @@ with st.container():
 left_column, right_column = st.columns(2)
 with left_column:
     st.markdown(contact_form, unsafe_allow_html=True)
-with right_column:
-    st.empty
+#with right_column:
+    #st.empty
