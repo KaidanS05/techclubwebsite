@@ -12,6 +12,7 @@ st.set_page_config(
         )
 
 class MultiApp:
+    self = "Contact Form"
     def __init__(self):
         self.apps = []
         
@@ -22,7 +23,7 @@ class MultiApp:
         st.sidebar.markdown("## Main Menu")
         app = st.selectbox(
             "Select Page",
-            ("Home Page", "Current Projects", "Achievements"),
+            ("Home Page", "Current Projects", "Achievements", "Contact Form"),
         )
         st.sidebar.markdown("---")
 
