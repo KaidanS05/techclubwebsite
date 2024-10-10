@@ -4,6 +4,7 @@ from PIL import Image
 from pages import page1
 from pages import page2
 from pages import page3
+from pages import page4
 
 st.set_page_config(
             page_title="NOVA Tech Club",
@@ -30,5 +31,6 @@ app = MultiApp()
 app.add_app("Home Page", page1)
 app.add_app("Current Projects", page2)
 app.add_app("Achievements", page3)
+app.add_app("Contact Form", page4)
 
 app.run()
