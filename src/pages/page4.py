@@ -10,4 +10,4 @@ AUTHORIZED_USERS = {
 }
 
 if st.experimental_user.email in AUTHORIZED_USERS:
-    display_Private_View
+    display_Private_View()
